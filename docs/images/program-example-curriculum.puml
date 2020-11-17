@@ -2,23 +2,23 @@
 
 title Example program using a curriculum structure
 
-object "Curriculum" as c
-object "Curriculum Program Membership" as cpm
-object "Curriculum Course Membership for C1" as ccm1
-object "Curriculum Course Membership for C2" as ccm2
-object "Curriculum Course Run Exclusion for C2" as ccre2
+object "Curriculum" as c #peachpuff
+object "Curriculum Program Membership" as cpm #peachpuff
+object "Curriculum Course Membership for C1" as ccm1 #peachpuff
+object "Curriculum Course Membership for C2" as ccm2 #peachpuff
+object "Curriculum Course Run Exclusion for C2" as ccre2 #peachpuff
 
-object "Intro to Plants - Program" as p
+object "Intro to Plants - **Program**" as p
 object "Program Courses" as pc
 object "Excluded Course Runs" as ecr
 
-object "Water and Why It Helps - Course C1" as c1
-object "course-v1:H20+cr1a - Course Run CR1a" as cr1a
-object "course-v1:H20+cr1b - Course Run CR1b" as cr1b
+object "Water and Why It Helps - **Course C1**" as c1
+object "course-v1:H20+cr1a - **Course Run CR1a**" as cr1a
+object "course-v1:H20+cr1b - **Course Run CR1b**" as cr1b
 
-object "Growing Toward the Light - Course C2" as c2
-object "course-v1:LT+cr2a - Course Run CR2a" as cr2a
-object "course-v1:LT+cr2b - Course Run CR2b" as cr2b
+object "Growing Toward the Light - **Course C2**" as c2
+object "course-v1:LT+cr2a - **Course Run CR2a**" as cr2a
+object "course-v1:LT+cr2b - **Course Run CR2b**" as cr2b
 
 c --> p
 c --> cpm
